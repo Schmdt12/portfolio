@@ -1,0 +1,73 @@
+*{
+    font-style: initial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(40, 96, 46);
+    height: 5vh;
+    padding: 30px;
+}
+
+h1{
+    color: white;
+}
+
+.nome{
+    color: black;
+}
+
+.container_estilizado{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border: 4px solid rgb(40, 96, 46);
+    border-radius: 20px;
+    /* background-color: rgb(81, 116, 88); */
+    padding: 20px;
+}
+
+
+
+audio::-webkit-media-controls-timeline,
+    audio::-webkit-media-controls-panel{
+        background-color: rgb(79, 137, 84);
+        display: inline-flex;
+}
+
+
+main{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/imagemfundo.webp);
+    background-position: 100%;
+}
+
+footer{
+    background-color: rgb(40, 96, 46);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#item__navegador{
+    font-size: large;
+    padding: 5px;
+    text-decoration: wavy;
+    color: rgb(255, 255, 255);
+    
+    
+}
